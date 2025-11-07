@@ -1,0 +1,27 @@
+[package]
+name = "harbor"
+version = "0.1.0"
+edition = "2024"
+description = "A small secure JavaScript/TypeScript runtime built on V8 and tokio"
+license = "MIT"
+
+[[bin]]
+name = "harbor"
+path = "src/main.rs"
+
+[lib]
+name = "harbor"
+path = "src/lib.rs"
+
+[dependencies]
+v8 = "=130.0.7"
+tokio = { version = "1", features = ["rt", "time", "fs", "net", "io-util", "macros", "sync", "process"] }
+oxc = { version = "=0.157.0", features = ["transformer", "codegen", "semantic"] }
+futures = { version = "0.3", default-features = false, features = ["std", "async-await"] }
+anyhow = "1"
+
+[dev-dependencies]
+tempfile = "3"
+
+[profile.release]
+debug = false
