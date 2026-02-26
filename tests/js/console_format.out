@@ -1,0 +1,13 @@
+str 1 -0 2n true null undefined Symbol(s)
+[ 1, [ 2, [ 3 ] ] ] { a: 1, "b-c": "x", nested: { d: [] } }
+Set(2) { 1, "a" } Map(1) { "k" => { v: 1 } }
+Uint8Array(3) [ 1, 2, 3 ] [Function: named] [Function: (anonymous)]
+Bob is 42.5 years and 42% extra
+{ name: "c", self: [Circular] }
+Point { x: 1, y: 2 }
+group
+  indented
+default: 1
+default: 2
+x: 1
+shown
