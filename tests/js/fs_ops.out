@@ -1,0 +1,15 @@
+"line1\nline2\n"
+Uint8Array 12 108
+sync!
+[ 0, 1, 2, 255 ]
+stat 12 true false
+dir true
+missing: NotFound
+read 4 2345
+resources {"3":"file"}
+after close {}
+streamed 1000000 bytes in 16 chunks; checksum ok: true
+stream closed file: {}
+reader false [ "line1", "line2" ]
+reader end true
+removed
