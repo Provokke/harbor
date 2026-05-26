@@ -1,0 +1,11 @@
+eval cycle_b, a during cycle -> ReferenceError
+eval cycle_a (b already evaluated: true )
+A bLate sees A and aFn sees B
+live binding count: 2 2 same module instance: true
+area 13 9
+modules/deep/deeper/up.js harbor 3 tla-ready
+main? true true
+dynamic import shares instance: true
+tla-ready
+missing dyn import: true
+bare: Relative import path "left-pad" not prefixed with / or ./ or ../
