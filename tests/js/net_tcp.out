@@ -1,0 +1,7 @@
+listening on random port: true
+HELLO OVER TCP
+MSG-A MSG-B MSG-C
+201 true application/json
+fetch json ok
+refused: ConnectionRefused
+listener closed, loop exits
