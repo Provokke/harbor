@@ -1,0 +1,2 @@
+toObject: Requires env access to all environment variables, run again with the --allow-env flag
+env allow-list ok
