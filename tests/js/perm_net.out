@@ -1,0 +1,5 @@
+connect: Requires net access to "127.0.0.1:80", run again with the --allow-net flag
+connect other host denied
+listen: Requires net access to "127.0.0.1:0", run again with the --allow-net flag
+fetch denied
+allowed entry gets past permissions: true
