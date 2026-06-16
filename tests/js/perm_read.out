@@ -1,0 +1,7 @@
+readTextFile -> PermissionDenied
+readFile -> PermissionDenied
+stat -> PermissionDenied
+open -> PermissionDenied
+readTextFileSync -> Requires read access to "/etc/hostname", run again with the --allow-read flag
+cwd -> PermissionDenied
+true PermissionDenied: Requires read access to "$CWD", run again with the --allow-read flag
