@@ -1,0 +1,2 @@
+Requires run access to "sh", run again with the --allow-run flag
+0 true "hi there\n"
