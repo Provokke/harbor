@@ -1,0 +1,10 @@
+inside scope: ok
+writeTextFile denied
+writeFile denied
+dotdotEscape denied
+prefixTrick denied
+mkdir denied
+remove denied
+openCreate denied
+writeTextFileSync denied
+no file created
