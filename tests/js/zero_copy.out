@@ -1,0 +1,3 @@
+bidirectional mutation ok
+rust-allocated buffer adopted without copy
+100MB zero-copy ok
